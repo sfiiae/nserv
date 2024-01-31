@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/af/dev/nserv/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ERROR	src/Log.h	/^        ERROR,$/;"	e	enum:nserv::LogLevel::Level
+FATAL	src/Log.h	/^        FATAL$/;"	e	enum:nserv::LogLevel::Level
+INFO	src/Log.h	/^        INFO,$/;"	e	enum:nserv::LogLevel::Level
+InetAddress	src/InetAddress.cc	/^InetAddress::InetAddress() {$/;"	f	class:nserv::InetAddress
+InetAddress	src/InetAddress.cc	/^InetAddress::InetAddress(const char *ip, uint16_t port) : InetAddress() {$/;"	f	class:nserv::InetAddress
+InetAddress	src/InetAddress.h	/^class InetAddress {$/;"	c	namespace:nserv
+Level	src/Log.h	/^    enum Level {$/;"	g	class:nserv::LogLevel
+LogLevel	src/Log.h	/^class LogLevel {$/;"	c	namespace:nserv
+Logger	src/Log.h	/^class Logger {$/;"	c	namespace:nserv
+NSERV_INETADDRESS_H	src/InetAddress.h	/^#define NSERV_INETADDRESS_H$/;"	d
+NSERV_LOG_H	src/Log.h	/^#define NSERV_LOG_H$/;"	d
+UNKNOWN	src/Log.h	/^        UNKNOWN = 0;$/;"	e	enum:nserv::LogLevel::Level
+WARNING	src/Log.h	/^        WARNING,$/;"	e	enum:nserv::LogLevel::Level
+XX	src/Log.cc	/^#define XX(/;"	d	file:
+addr_	src/InetAddress.h	/^    struct sockaddr_in addr_;$/;"	m	class:nserv::InetAddress	typeref:struct:sockaddr_in
+level	src/Log.h	/^    LogLevel::Level level;$/;"	m	class:nserv::Logger	typeref:typename:LogLevel::Level
+level2Str	src/Log.cc	/^std::string LogLevel::level2Str(LogLevel::Level level) {$/;"	f	class:nserv::LogLevel	typeref:typename:std::string
+log	src/Log.cc	/^void Logger::log(LogLevel::Level level, const std::string &str) {$/;"	f	class:nserv::Logger	typeref:typename:void
+main	tests/LogTest.cc	/^int main() {$/;"	f	typeref:typename:int
+nserv	CMakeLists.txt	/^project(nserv LANGUAGES CXX)$/;"	p
+nserv	README.md	/^# nserv$/;"	c
+nserv	src/InetAddress.cc	/^namespace nserv {$/;"	n	file:
+nserv	src/InetAddress.h	/^namespace nserv {$/;"	n
+nserv	src/Log.cc	/^namespace nserv {$/;"	n	file:
+nserv	src/Log.h	/^namespace nserv {$/;"	n
+str2Level	src/Log.cc	/^LogLevel::Level LogLevel::str2Level(const std::string &str) {$/;"	f	class:nserv::LogLevel	typeref:typename:LogLevel::Level
