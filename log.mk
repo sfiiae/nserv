@@ -7,3 +7,9 @@ Log.o: src/Log.cc
 LogTest.o: tests/LogTest.cc
 	g++ -c $< -Isrc
 
+.PHONY: clean
+
+clean:
+	-rm *.o
+	-rm test
+
